@@ -1,1 +1,12 @@
-
+:root {
+    --background-color: #fff;
+    --title-color: #212121;
+    --button-color: #2196f3;
+    --text-color: #757575;
+    --footer-color: #2f303a;
+    --footertext-color: #ffffff99;
+    --backgroundbuttons-color: #f5f4fa;
+    --logo-color: #000;
+    --box-color: #eee;
+    --line-color: #ECECEC;
+  }
