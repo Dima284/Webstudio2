@@ -148,7 +148,30 @@ body{
   padding-top: 94px;
 }
 
-
+.pluses-item::before{
+  content: "";
+  display: block;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--fon-tim);
+  background-image: url(../imgs/antena.png);
+  background-position: center;
+  background-size: 70px;
+  background-repeat: no-repeat;
+}
+  .pluses-item:nth-child(1)::before {
+    background-image: url(../imgs/antena.png);
+  }
+  .pluses-item:nth-child(2)::before {
+    background-image: url(../imgs/clock.png);
+  }
+  .pluses-item:nth-child(3)::before {
+    background-image: url(../imgs/diagrama.png);
+  }
+  .pluses-item:nth-child(4)::before {
+    background-image: url(../imgs/kosmochel.png);
+  }
 
 .pluses-text{
   color: var(--text-color);
